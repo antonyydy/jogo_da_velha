@@ -4,6 +4,7 @@
   <p align="center">
     <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
+       <a href="#-projeto-2">Projeto 2</a>&nbsp;&nbsp;&nbsp;
   
   
   ## 💻 Projeto
@@ -26,9 +27,24 @@
   X|O|O<br>
   X|O|X
   
+  ## 💻 Projeto 2
+  Faça um programa que leia um arquivo no formato padrão exibido pela professora. O arquivo é um tabuleiro de jogo da velha e seu programa deve informar quem ganhou o jogo ou se houve empate.
+
+Exemplo do Arquivo:<br>
+X| |X<br>
+X|O|O<br>
+X|O|X
+
+O arquivo sempre terá 5 linhas; as linhas 2 e 4 sempre serão tracejados; Só podem ter os caracteres X, O, | ou espaço vazio em cada posição do arquivo.
+
+
+Obs: Esse projeto foi posteriormente substituído para ser a função que verifica a vitória do Jogo da velha.
   
   
-  ## 🚀 Tecnologias
+  
+  
+  
+   ## 🚀 Tecnologias
   
   Esse projeto foi desenvolvido com as seguintes tecnologias:
   
