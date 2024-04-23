@@ -35,6 +35,8 @@ def marcar_tabuleiro():
         tabuleiro[x_l][x_c] = "X"
         imprimir_jogo_da_velha()
         jogadas += 1
+        salvar_resultado(tabuleiro)
+
         if verificar_vitoria_x(tabuleiro):
             salvar_resultado(tabuleiro)
             print("O jogador X venceu!")
@@ -55,6 +57,7 @@ def marcar_tabuleiro():
         tabuleiro[o_l][o_c] = "O"
         imprimir_jogo_da_velha()
         jogadas += 1
+        salvar_resultado(tabuleiro)
         
         if verificar_vitoria_o(tabuleiro):
             salvar_resultado(tabuleiro)
